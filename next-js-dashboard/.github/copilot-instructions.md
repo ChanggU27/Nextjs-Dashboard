@@ -61,3 +61,10 @@ You are an expert full-stack engineer enforcing production-grade standards. Foll
 
 - Extract repeated style patterns into small, atomic components (e.g., `<Button>`, `<Badge>`, `<Card>`) rather than copying long utility strings across files.
 - If using CSS Modules (`.module.css`), use kebab-case or camelCase class names consistently and avoid deeply nested element selectors.
+
+# GitHub Copilot Instructions
+
+- Do not read, log, or reference secret values from `.env` or `.env.local` files.
+- Follow Next.js App Router conventions and React Server Component best practices.
+- Use the `cn` utility function (`clsx` + `tailwind-merge`) for conditional Tailwind CSS classes.
+- Use TypeScript with strict typing where possible.
